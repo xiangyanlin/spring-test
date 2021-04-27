@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: apollo_client_demo
+
+#apollo配置中心
+app:
+  id: test_apollo
+apollo:
+  meta: http://115.29.173.51:8080
+  bootstrap:
+    enabled: true
+    # will inject 'application' and 'TEST1.apollo' namespaces in bootstrap phase

@@ -5,6 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @author xyl
+ * vm option 中加入eruka地址：
+ * -Dapollo.configService=http://115:29:173:51:8080
  */
 @SpringBootApplication
 public class SpringTestApplication {
