@@ -51,7 +51,7 @@ public class CglibProxy implements MethodInterceptor {
         //实例化CglibProxy对象
         CglibProxy cglib = new CglibProxy();
         //获取代理对象
-        UserManager user =  (UserManager) cglib.getCglibProxy(new UserManagerImpl());
+        UserManagerImpl user =(UserManagerImpl) cglib.getCglibProxy(new UserManagerImpl());
         //执行删除方法
         user.delUser("admin");
     }
